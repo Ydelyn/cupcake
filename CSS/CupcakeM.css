@@ -1,0 +1,104 @@
+/* Pour Mobile  */
+
+@media screen and (max-width:900px){
+    
+    header{
+        text-align: center;
+    }
+
+    #Logo{
+        margin: 30px;
+    }
+
+    h1{
+        display: none;
+    }
+
+    address{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    #Rose{
+        padding: 20px;
+    }
+
+    #Gratuit{
+        background: repeating-linear-gradient(to left, rgb(241,228,235) 0px,rgb(241,228,235) 20px,rgb(244,232,239) 20px,rgb(244,232,239) 40px);
+        padding:  20px 20px;
+    }
+
+    h2{
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    #Free{
+        margin: auto;
+       display: flex;
+    }
+
+    #Free > img{
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    #Reste{
+        width: 40%;
+        margin-left: 25px;
+    }
+
+    #Reste > p:first-of-type{
+        font-weight: bolder;
+    }
+
+    button{
+        padding: 8px;
+        margin-top: 30px;
+        border-radius: 5px;
+        border: 1px solid rgb(177, 176, 176);
+        background: linear-gradient(rgb(236, 236, 236),rgb(190, 190, 190)) ;
+    }
+
+    button:active{
+        background: linear-gradient(rgb(165, 165, 165),rgb(219, 219, 219)) ;
+    }
+
+    #Gratuit > p{
+        margin-top: -12px;
+    }
+
+    #Samples{
+        background: repeating-linear-gradient(to left, rgb(226,201,215) 0px,rgb(226,201,215) 20px,rgb(232,209,222) 20px,rgb(232,209,222) 40px);
+    }
+
+    h3{
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    figure{
+        max-width: 500px;
+        margin: auto;
+    }
+
+    figcaption{
+        margin: 5px 0px;
+    }
+
+    table{
+        width: 70%;
+    }
+
+    .jour{
+        font-weight: bold;
+    }
+
+    td{
+        padding: 0px 5px;
+    }
+
+    #Map{
+        display: none;
+    }
+}
